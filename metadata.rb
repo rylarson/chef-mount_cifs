@@ -9,5 +9,5 @@ version          '0.1.0'
 depends "apt", '>= 0.0.0' 
 
 supports 'ubuntu', '>= 10.04'
-supports 'centos', '>= 5'
+supports 'centos', '>= 5.10'
 supports 'debian', '>= 7.4' 
