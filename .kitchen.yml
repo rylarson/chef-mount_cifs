@@ -1,0 +1,23 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: ubuntu-10.04
+  - name: ubuntu-12.04
+  - name: ubuntu-13.04
+  - name: ubuntu-14.04
+
+  - name: debian-7.4
+
+  - name: centos-6.4
+  - name: centos-5.10
+
+suites:
+  - name: default
+    run_list:
+      - recipe[mount_cifs::default]
+    attributes:
