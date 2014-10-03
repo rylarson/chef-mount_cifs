@@ -1,27 +1,20 @@
 # mount_cifs-cookbook
 
-TODO: Enter the cookbook description here.
+Install the packages required for mount to use the cifs filesystem.
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+##### Ubuntu
+* 10.04
+* 12.04
+* 14.04
 
-## Attributes
+##### Debian
+* 7.4
 
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['mount_cifs']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+##### CentOS
+* 5.10
+* 6.4
 
 ## Usage
 
@@ -39,4 +32,4 @@ Include `mount_cifs` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: RYAN_LARSON (<ryan.mango.larson@gmail.com>)
