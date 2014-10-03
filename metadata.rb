@@ -8,5 +8,6 @@ version          '0.1.0'
 
 depends "apt"
 
-supports 'ubuntu' 
-
+supports 'ubuntu', '>= 10.04'
+supports 'centos', '>= 5'
+supports 'debian', '>= 7.4' 
