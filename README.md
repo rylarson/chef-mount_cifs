@@ -7,6 +7,7 @@ Install the packages required for mount to use the cifs filesystem.
 ##### Ubuntu
 * 10.04
 * 12.04
+* 13.04
 * 14.04
 
 ##### Debian
