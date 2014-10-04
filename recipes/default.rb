@@ -25,4 +25,7 @@ case node["platform"]
   when "debian"
   	include_recipe "apt::default"
   	package "cifs-utils"
+
+  when "fedora"
+    package "cifs-utils"
 end
