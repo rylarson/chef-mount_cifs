@@ -11,11 +11,16 @@ Install the packages required for mount to use the cifs filesystem.
 * 14.04
 
 ##### Debian
+* 6.0.8
 * 7.4
 
 ##### CentOS
 * 5.10
 * 6.4
+
+##### Fedora
+* 18
+* 19
 
 ## Usage
 
