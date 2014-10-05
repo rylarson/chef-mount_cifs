@@ -28,4 +28,7 @@ case node["platform"]
 
   when "fedora"
     package "cifs-utils"
+
+  when "oracle"
+    package "cifs-utils"
 end

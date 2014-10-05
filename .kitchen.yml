@@ -17,8 +17,22 @@ platforms:
   - name: centos-6.4
   - name: centos-5.10
 
+  - name: fedora-18
+    driver:
+      box: fedora-18-x86_64
+      box_url: http://puppet-vagrant-boxes.puppetlabs.com/fedora-18-x64-vbox4210-nocm.box
   - name: fedora-19
   - name: fedora-20
+
+  # Oracle linux boxes require virtualbox extension pack
+  - name: oracle-6.5
+    driver:
+      box: oraclelinux-6-x86_64
+      box_url: http://cloud.terry.im/vagrant/oraclelinux-6-x86_64.box
+  - name: oracle-7.0
+    driver:
+      box: oraclelinux-7-x86_64
+      box_url: http://cloud.terry.im/vagrant/oraclelinux-7-x86_64.box
 
 suites:
   - name: default

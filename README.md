@@ -2,7 +2,9 @@
 
 Install the packages required for mount to use the cifs filesystem.
 
-## Supported Platforms
+## Tested Platforms
+
+Integration tests are regularly run on the following platforms.
 
 ##### Ubuntu
 * 10.04
@@ -18,9 +20,14 @@ Install the packages required for mount to use the cifs filesystem.
 * 5.10
 * 6.4
 
+##### Oracle Linux
+* 6.5
+* 7.0
+
 ##### Fedora
 * 18
 * 19
+* 20
 
 ## Usage
 
@@ -38,4 +45,4 @@ Include `mount_cifs` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: RYAN_LARSON (<ryan.mango.larson@gmail.com>)
+Author:: Ryan Larson (<ryan.mango.larson@gmail.com>)
